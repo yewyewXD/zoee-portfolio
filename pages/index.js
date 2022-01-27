@@ -1,14 +1,6 @@
 import Head from "next/head";
-import { useMoralis } from "react-moralis";
 
 export default function Home() {
-  const { Moralis } = useMoralis();
-  async function login() {
-    await Moralis.Web3.enableWeb3();
-    await Moralis.Web3.authenticate();
-    console.log(Moralis.User.current().get("ethAddress"));
-  }
-
   return (
     <div>
       <Head>
@@ -17,9 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <button onClick={login}>Login</button>
-      </main>
+      <main></main>
     </div>
   );
 }
