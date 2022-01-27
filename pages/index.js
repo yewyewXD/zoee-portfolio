@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Zoée Copywriter</title>
         <meta name="description" content="Zoée Copywriter" />
-        <link rel="icon" href="/Logo.svg" />
+        <link rel="icon" href="/images/Logo.svg" />
       </Head>
 
       <main></main>
