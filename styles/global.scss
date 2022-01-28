@@ -9,5 +9,16 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   background-color: $color-lightPurple;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   // overflow-x: hidden;
+}
+
+.bg- {
+  &lightPurple {
+    background-color: $color-lightPurple;
+  }
+  &darkPurple {
+    background-color: $color-darkPurple;
+  }
 }
