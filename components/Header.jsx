@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header>
+    <header className="py-7">
       <div className="container mx-auto">
         <div className="grid grid-cols-3 w-full">
           <div className="flex justify-start items-center">
@@ -17,7 +17,9 @@ const Header = () => {
             <span>About</span>
           </nav>
 
-          <div className="flex justify-end items-center">Book a free call</div>
+          <div className="flex justify-end items-center">
+            <button className="p-5 bg-lightPurple">Book a free call</button>
+          </div>
         </div>
       </div>
     </header>
