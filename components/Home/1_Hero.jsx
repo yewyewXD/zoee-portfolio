@@ -1,18 +1,20 @@
 import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-2 justify-center items-center flex-grow">
-      <div className="flex flex-col justify-center px-20 text-left">
+    <section className="grid grid-cols-2 justify-center items-center flex-grow container mx-auto gap-10">
+      <div className="flex flex-col justify-center text-left">
         <div className="mb-3 text-lg italic">Pour les infopreneurs…</div>
         <h1 className="text-5xl font-bold mb-7 leading-tight">
-          Comment Aimeriez-Vous Augmenter Drastiquement Votre Nombre de
-          Prospects, de Clients et vos Ventes Chaque Mois ?
+          Comment Aimeriez-Vous Augmenter Drastiquement Vos Prospects, vos
+          Clients et vos Ventes Chaque Mois ?
         </h1>
         <h2 className="mb-10 text-2xl font-medium leading-normal">
-          Je vous aide à développer rapidement votre business en utilisant des
-          techniques de marketing testées et approuvées pendant que vous avez
-          l’esprit tranquille !
+          Je vous aide à développer <span className="italic">rapidement</span>{" "}
+          votre business en utilisant des techniques de marketing{" "}
+          <b>testées et approuvées</b> pendant que vous avez{" "}
+          <u>l’esprit tranquille</u>!
         </h2>
         <div className="mb-5">
           <button className="bg-darkPurple py-6 px-12 font-semibold text-2xl transition duration-200 hover:opacity-80">
@@ -23,6 +25,15 @@ const Hero = () => {
           <hr className="border-t border-gray-700 w-5 mr-3" /> Cliquez ici pour
           planifier votre appel de consultation GRATUIT de 30 minutes
         </div>
+      </div>
+
+      <div className="relative h-full w-full flex justify-center items-center">
+        <Image
+          src="/images/HeroImg.svg"
+          className="HeroImg"
+          alt=""
+          layout="fill"
+        />
       </div>
     </section>
   );
