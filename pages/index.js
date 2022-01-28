@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Home/1_Hero";
+import Certificate from "../components/Home/2_Certificate";
 
 export default function Home() {
   return (
@@ -12,10 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="flex flex-col h-screen">
-          <Header />
-          <Hero />
-        </div>
+        <Header />
+        <Hero />
+        <Certificate />
       </main>
     </div>
   );
