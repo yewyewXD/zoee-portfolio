@@ -19,11 +19,11 @@ const Hero = () => {
         <div className="mb-5">
           <button className="bg-darkPurple py-6 px-12 font-semibold text-2xl transition duration-200 hover:opacity-80">
             OUI ! Je veux ma consultation 100% GRATUITE !
+            <div className="text-base font-normal mt-2">
+              Cliquez ici pour planifier votre appel de consultation GRATUIT de
+              30 minutes
+            </div>
           </button>
-        </div>
-        <div className="flex items-center text-gray-700">
-          <hr className="border-t border-gray-700 w-5 mr-3" /> Cliquez ici pour
-          planifier votre appel de consultation GRATUIT de 30 minutes
         </div>
       </div>
 
