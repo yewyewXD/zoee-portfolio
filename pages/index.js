@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Home/1_Hero";
 import Certificate from "../components/Home/2_Certificate";
+import Services from "../components/Home/4_Services";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Certificate />
+        <Services />
       </main>
     </div>
   );
