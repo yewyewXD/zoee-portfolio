@@ -10,6 +10,7 @@
   "dependencies": {
     "@walletconnect/web3-provider": "^1.7.1",
     "autoprefixer": "^10.4.2",
+    "interweave": "^12.9.0",
     "moralis": "^0.0.184",
     "next": "12.0.8",
     "postcss": "^8.4.5",
