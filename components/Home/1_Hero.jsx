@@ -11,10 +11,9 @@ const Hero = () => {
           Clients et vos Ventes Chaque Mois ?
         </h1>
         <h2 className="mb-10 text-2xl font-medium leading-normal">
-          Je vous aide à développer <span className="italic">rapidement</span>{" "}
-          votre business en utilisant des techniques de marketing{" "}
-          <b>testées et approuvées</b> pendant que vous avez{" "}
-          <u>l’esprit tranquille</u>!
+          Je vous aide à développer <i>rapidement</i> votre business en
+          utilisant des techniques de marketing <b>testées et approuvées</b>{" "}
+          pendant que vous avez <u>l’esprit tranquille</u>!
         </h2>
         <div className="mb-5">
           <button className="bg-darkPurple py-6 px-12 font-semibold text-2xl transition duration-200 hover:opacity-80">
