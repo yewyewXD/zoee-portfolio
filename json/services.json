@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Tunnels de vente",
+    "description": "Les tunnels de vente sont la nouvelle façon de vendre des produits et des services sur internet. Si vous souhaitez <b>maximiser</b> vos ventes et obtenir un retour sur investissement plus élevé ou même attirer des clients à profits, vous avez besoin d’un tunnel de vente. <br/>Que vous ayez un business local ou un business d’information, je peux vous aider à construire des tunnels de vente à taux de conversion <b>élevé</b> qui feront considérablement augmenter votre nombre de prospects et vos ventes <u>chaque mois</u>.",
+    "category": {
+      "title": "Voici les différents types de tunnels que je peux créer",
+      "list": [
+        "Tunnels pour acquérir des prospects pour votre entreprise",
+        "Tunnels pour vendre vos produits et services",
+        "Tunnels de webinaires pour vendre des offres high ticket"
+      ]
+    }
+  },
+
+  {
+    "title": "E-mailing",
+    "description": "Les e-mails sont de nos jours un atout ESSENTIEL pour votre entreprise. Si vous n’en avez pas, vous perdez des dizaines, des centaines voire des milliers de clients potentiels chaque mois !<br/> En plus, le retour sur investissement des e-mails est d’<b>en moyenne 40x</b> ! Une simple séquence e-mail peut générer un <u>minimum</u> de 10% de revenus supplémentaires pour votre entreprise au cours des 7 premiers jours. Pas mal non ? <br/>Mais pourquoi l’e-mailing est si puissant ? Car on rentre dans l’intimité du prospect : sa boîte mail. Il a accepté de recevoir vos e-mails en laissant son adresse. Contrairement à une publicité qu’il n’a pas demandé à voir. Il sera donc potentiellement <i>plus intéressé</i> par votre offre.",
+    "category": {
+      "title": "Voici les différents types d’e-mails que je peux créer pour vou",
+      "list": [
+        "Des séquences e-mails qui transformeront vos prospects en clients",
+        "Des séquences e-mails qui transformeront vos prospects abonnés inactif en client",
+        "Des séquences e-mails qui augmenteront le taux de participation à votre webinaire et fidéliseront davantage de clients après le webinaire"
+      ]
+    }
+  },
+
+  {
+    "title": "Facebook Ads",
+    "description": "Facebook est une des <i>meilleures</i> plateformes que vous pouvez utiliser pour atteindre votre audience. Pourquoi ? Parce qu’il y a <b>1,4 milliard</b> d’utilisateurs actifs quotidiennement (oui, c’est beaucoup) et que vous pouvez cibler votre client idéal en utilisant Facebook Data (qui contient presque toutes les données que vous souhaitez sur votre client).<br/>Un bon storytelling, une offre irrésistible, un message qui correspond au marché et quelques astuces de marketing sont les ingrédients nécessaires pour une bonne publicité Facebook (c’est un peu comme une recette de cuisine). Mais la vérité c’est qu’il y a une vraie science qui se cache derrière la création de BONNES publicité Facebook.",
+    "category": {
+      "title": "Voici les types de publicités Facebook que je peux vous proposer",
+      "list": [
+        "Des publicités qui généreront des prospects ciblés de qualité pour votre entreprise locale ou votre entreprise d'information.",
+        "Des publicités qui offrent une valeur considérable lors de la vente de vos produits.",
+        "Des publicités de reciblage qui augmenteront votre retour sur investissement d'au moins 2x à 3x (dans certains cas, 5x à 10x)."
+      ]
+    }
+  },
+
+  {
+    "title": "Copy Persuasif",
+    "description": "Ecrire un copy qui vend est un art (oui littéralement). Il faut utiliser les bons mots qui parlent à votre prospect, les bonnes tournures de phrases, tout en suscitant des émotions et de la curiosité pour les pousser à lire jusqu’au bout. Bref, c’est pas si évident que ça. <br/>Il y a réellement une <i>science</i> et des <i>principes psychologiques</i> qui sont mis en jeu. Tout d’abord pour capter l’attention de votre prospect, puis le garder suffisamment intéressé pour qu’il lise l’intégralité du copy, et pour finir le pousser à acheter ce que vous vendez . <br/>Que vous publiez sur les réseaux sociaux, créez une publicité ou vendiez simplement quelque chose, vous avez BESOIN du <b>copywriting</b> (ou conception rédaction si vous préférez). Pourquoi ? Pour persuader votre audience d’agir. <br/>J’écrirai personnellement un copy <i>éthique et honnête</i> (on ne parle pas de manipulation, ici le prospect est conscient de ses actions) qui suscitera l’émotion de votre prospect. En effet, on achète avec les émotions. Résultat : ils seront excités et <i>heureux</i> de sortir leur carte bancaire et de vous <b>envoyer de l’argent</b> en échange de vos produits et services. Pour finit, tout le monde est satisfait !",
+    "category": {
+      "title": "Le copy persuasif est présent dans tous mes services",
+      "list": [
+        "Pages de vente",
+        "Pages de capture",
+        "Facebook ads",
+        "Séquences e-mail",
+        "E-mailing et Newsletter",
+        "Tunnels de vente"
+      ]
+    }
+  }
+]
