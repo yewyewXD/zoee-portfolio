@@ -1,6 +1,7 @@
 import React from "react";
 import services from "../../json/services.json";
 import Interweave from "interweave";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -11,7 +12,7 @@ const Services = () => {
       <div className="container mx-auto flex flex-col gap-16">
         {services.map((service, index) => (
           <div
-            className="grid grid-cols-5 w-full gap-10"
+            className="grid grid-cols-5 w-full gap-16"
             key={`service${index}`}
           >
             <div
@@ -45,7 +46,14 @@ const Services = () => {
                 </div>
               ))}
             </div>
-            <div className="col-span-2"></div>
+            <div className="col-span-2 relative">
+              <Image
+                src={`/images/ServiceImg${index + 1}.svg`}
+                className="pointer-events-none"
+                layout="fill"
+                alt=""
+              />
+            </div>
           </div>
         ))}
       </div>

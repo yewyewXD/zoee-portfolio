@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="relative h-full w-full flex justify-center items-center">
         <Image
           src="/images/HeroImg.svg"
-          className="HeroImg"
+          className="HeroImg pointer-events-none"
           alt=""
           layout="fill"
         />
