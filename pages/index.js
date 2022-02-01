@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Home/1_Hero";
 import Certificate from "../components/Home/2_Certificate";
@@ -16,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/images/Logo.svg" />
       </Head>
 
+      <Header />
       <main>
-        <Header />
         <Hero />
         <Certificate />
         <Services />
@@ -25,6 +26,7 @@ export default function Home() {
         <Contact />
         <FinalCTA />
       </main>
+      <Footer />
     </div>
   );
 }
