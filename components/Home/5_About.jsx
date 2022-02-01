@@ -1,15 +1,16 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
     <section className="py-16" id="about">
       <div className="container mx-auto">
-        <h2 className="mb-10 text-2xl font-semibold text-left">
-          À Propos de Moi
-        </h2>
-
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-5 gap-16">
           <div className="col-span-3 text-justify">
+            <h2 className="mb-10 text-2xl font-semibold text-left">
+              À Propos de Moi
+            </h2>
+
             <p className="mb-6">
               Bon je le répète encore une fois (vaut mieux trop que pas assez) :
               j’aide les entreprises à augmenter <i>rapidement</i> et{" "}
@@ -60,7 +61,17 @@ const About = () => {
             </p>
           </div>
 
-          <div className="col-span-2"></div>
+          <div className="col-span-2 relative flex justify-center items-center">
+            <div>
+              <Image
+                src="/images/ZoeeHead.jpeg"
+                className="AboutImg"
+                height={500}
+                width={500}
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
