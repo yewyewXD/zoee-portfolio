@@ -5,13 +5,21 @@
 @import "./01-variables";
 @import "./02-components";
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
   background-color: $color-lightPurple;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   // overflow-x: hidden;
 }
 
