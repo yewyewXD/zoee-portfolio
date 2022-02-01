@@ -33,7 +33,7 @@ const Services = () => {
                       className="h-5 w-5"
                       style={{ marginTop: "1px" }}
                       viewBox="0 0 20 20"
-                      fill="black"
+                      fill="#9e7ce1"
                     >
                       <path
                         fillRule="evenodd"

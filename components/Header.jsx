@@ -25,12 +25,6 @@ const Header = () => {
             <Link href="#about">À propos de moi</Link>
             <Link href="#contact">Contact</Link>
           </nav>
-
-          {/* <div className="flex justify-end items-center">
-            <button className="py-3 px-6 bg-darkPurple font-semibold text-lg transition duration-200 hover:opacity-80">
-              Réserve ton appel GRATUIT !
-            </button>
-          </div> */}
         </div>
       </div>
     </header>

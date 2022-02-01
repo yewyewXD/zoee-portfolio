@@ -65,7 +65,7 @@ const About = () => {
             <div>
               <Image
                 src="/images/ZoeeHead.jpeg"
-                className="AboutImg"
+                className="AboutImg pointer-events-none"
                 height={500}
                 width={500}
                 alt=""
