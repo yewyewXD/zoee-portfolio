@@ -10,7 +10,7 @@ const Certificate = () => {
     >
       <div className="container mx-auto">
         <h2 className="mb-10 text-2xl font-semibold text-center">
-          Certification Personnelles Vérifiées
+          Certifications Personnelles Vérifiées
         </h2>
         <div className="flex gap-16 justify-center items-center justify-items-center">
           {certificates.map((name, index) => (

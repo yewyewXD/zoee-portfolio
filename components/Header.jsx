@@ -19,7 +19,7 @@ const Header = () => {
           </div>
 
           <nav className="flex justify-center items-center gap-8">
-            <Link href="#certificate">Certification</Link>
+            <Link href="#certificate">Certifications</Link>
             <Link href="#portfolio">Portfolio</Link>
             <Link href="#services">Services</Link>
             <Link href="#about">À propos de moi</Link>
