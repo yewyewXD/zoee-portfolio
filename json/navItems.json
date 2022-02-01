@@ -1,0 +1,22 @@
+[
+  {
+    "link": "#certificate",
+    "name": "Certifications"
+  },
+  {
+    "link": "#portfolio",
+    "name": "Portfolio"
+  },
+  {
+    "link": "#services",
+    "name": "Services"
+  },
+  {
+    "link": "#about",
+    "name": "À propos de moi"
+  },
+  {
+    "link": "#contact",
+    "name": "Contact"
+  }
+]

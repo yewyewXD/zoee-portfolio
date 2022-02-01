@@ -1,3 +1,24 @@
+nav {
+  @media (min-width: 768px) {
+    hr {
+      transition: 0.2s;
+      border-top: solid 2px $color-darkPurple;
+      width: 0px;
+      margin-top: 3px;
+    }
+
+    & a {
+      transition: 0.2s;
+      &:hover {
+        color: $color-blackPurple;
+        & + hr {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
 .AboutImg {
   -webkit-mask-image: url("/images/ZoeeHeadMask.svg");
   mask-image: url("/images/ZoeeHeadMask.svg");

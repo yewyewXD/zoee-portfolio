@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import navItems from "../json/navItems.json";
 
 const Header = () => {
   return (
@@ -19,11 +20,15 @@ const Header = () => {
           </div>
 
           <nav className="flex justify-center items-center gap-8">
-            <Link href="#certificate">Certifications</Link>
-            <Link href="#portfolio">Portfolio</Link>
-            <Link href="#services">Services</Link>
-            <Link href="#about">À propos de moi</Link>
-            <Link href="#contact">Contact</Link>
+            {navItems.map((navItem, index) => (
+              <div
+                className="flex flex-col justify-center items-center"
+                key={`nav${index}`}
+              >
+                <Link href={navItem.link}>{navItem.name}</Link>
+                <hr />
+              </div>
+            ))}
           </nav>
         </div>
       </div>
