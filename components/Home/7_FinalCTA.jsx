@@ -2,7 +2,7 @@ import React from "react";
 
 const FinalCTA = () => {
   return (
-    <section className="py-16">
+    <section className="FinalCTA py-16 bg-white">
       <div className="w-5/12 mx-auto">
         <h3 className="text-3xl font-semibold text-center mb-7">
           Êtes-Vous Prêt à Voir Votre Nombre de Prospects, de Clients et vos
