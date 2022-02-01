@@ -23,6 +23,7 @@ const Header = () => {
             <Link href="#portfolio">Portfolio</Link>
             <Link href="#services">Services</Link>
             <Link href="#about">À propos de moi</Link>
+            <Link href="#contact">Contact</Link>
           </nav>
 
           {/* <div className="flex justify-end items-center">
