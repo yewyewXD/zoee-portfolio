@@ -1,0 +1,26 @@
+[
+  {
+    "source": "EmailLong",
+    "name": "E-mail long"
+  },
+
+  {
+    "source": "Email",
+    "name": "E-mail court"
+  },
+
+  {
+    "source": "Sales",
+    "name": "Page de vente"
+  },
+
+  {
+    "source": "Facebook",
+    "name": "Publicités facebook"
+  },
+
+  {
+    "source": "Landing",
+    "name": "Page d'accueil"
+  }
+]
