@@ -6,21 +6,35 @@ import Image from "next/image";
 const Services = () => {
   return (
     <section id="services" className="bg-white py-16">
-      <h2 className="text-2xl font-semibold text-center ">
+      <h2 className="text-2xl font-semibold text-center">
         Services Premium que J’offre
       </h2>
       <div className="container mx-auto flex flex-col">
         {services.map((service, index) => (
           <div
-            className={`grid grid-cols-5 w-full mt-20`}
+            className={`grid lg:grid-cols-5 w-full lg:mt-20 mt-12`}
             key={`service${index}`}
           >
+            <div className="lg:hidden flex justify-center items-center w-full mb-3">
+              <Image
+                src={`/images/ServiceImg${index + 1}.svg`}
+                className="pointer-events-none"
+                width={250}
+                height={250}
+                alt=""
+              />
+            </div>
+
             <div
               className={`${
-                service?.reverse ? "order-last xl:ml-8 ml-5" : "xl:mr-8 mr-5"
-              } col-span-3`}
+                service?.reverse
+                  ? "order-last xl:ml-8 lg:ml-5"
+                  : "xl:mr-8 lg:mr-5"
+              } lg:col-span-3`}
             >
-              <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
+              <h3 className="lg:text-left text-center text-xl font-semibold mb-3">
+                {service.title}
+              </h3>
               <Interweave
                 className="block text-justify"
                 content={service.description}
@@ -50,8 +64,8 @@ const Services = () => {
             </div>
 
             <div
-              className={`col-span-2 relative ${
-                service?.reverse ? "xl:mr-8 mr-5" : "xl:ml-8 ml-5"
+              className={`lg:block hidden col-span-2 relative ${
+                service?.reverse ? "xl:mr-8 lg:mr-5" : "xl:ml-8 lg:ml-5"
               }`}
             >
               <Image

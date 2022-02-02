@@ -5,11 +5,21 @@ const About = () => {
   return (
     <section className="py-16" id="about">
       <div className="container mx-auto">
-        <div className="grid grid-cols-5">
-          <div className="col-span-3 text-justify mr-8">
-            <h2 className="mb-10 text-2xl font-semibold text-left">
+        <div className="grid lg:grid-cols-5">
+          <div className="lg:col-span-3 text-justify lg:mr-8">
+            <h2 className="lg:mb-10 lg:text-left text-center mb-5 text-2xl font-semibold">
               À Propos de Moi
             </h2>
+
+            <div className="lg:hidden flex justify-center mb-5">
+              <Image
+                src="/images/ZoeeHead.jpeg"
+                className="AboutImg pointer-events-none"
+                height={300}
+                width={300}
+                alt=""
+              />
+            </div>
 
             <p className="mb-6">
               Bon je le répète encore une fois (vaut mieux trop que pas assez) :
@@ -61,7 +71,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="col-span-2 relative flex justify-center items-center ml-8">
+          <div className="lg:flex hidden col-span-2 relative justify-center items-center ml-8">
             <div>
               <Image
                 src="/images/ZoeeHead.jpeg"

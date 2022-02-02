@@ -4,8 +4,8 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="contact" className="bg-white py-16">
-      <div className="container mx-auto grid grid-cols-2">
-        <div className="xl:ml-0 mr-5 relative flex items-center">
+      <div className="container mx-auto grid lg:grid-cols-2">
+        <div className="xl:ml-0 lg:flex hidden mr-5 relative items-center">
           <Image
             src="/images/ContactImg.svg"
             className="pointer-events-none"
@@ -14,8 +14,19 @@ const Contact = () => {
           />
         </div>
 
-        <div className="xl:ml-0 ml-5">
-          <h3 className="text-2xl font-semibold mb-10">Comment ça Marche ?</h3>
+        <div className="xl:ml-0 lg:ml-5">
+          <h3 className="lg:text-left lg:mb-10 mb-5 text-center text-2xl font-semibold">
+            Comment ça Marche ?
+          </h3>
+          <div className="lg:hidden flex justify-center mb-5">
+            <Image
+              src="/images/ContactImg.svg"
+              className="pointer-events-none"
+              alt=""
+              height={250}
+              width={450}
+            />
+          </div>
           <ol className="mb-6">
             <li className="mb-3">
               1. Nous allons commencer par passer un{" "}
