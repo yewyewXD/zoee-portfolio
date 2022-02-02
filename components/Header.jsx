@@ -19,10 +19,10 @@ const Header = () => {
             {/* <Image src="/images/Logo.svg" height={58} width={71.5} alt="" /> */}
           </div>
 
-          <nav className="flex justify-center items-center gap-8">
+          <nav className="flex justify-center items-center">
             {navItems.map((navItem, index) => (
               <div
-                className="flex flex-col justify-center items-center"
+                className="flex flex-col justify-center items-center ml-8"
                 key={`nav${index}`}
               >
                 <Link href={navItem.link}>{navItem.name}</Link>

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-2 justify-center items-center py-20 container mx-auto gap-10">
-      <div className="flex flex-col justify-center text-left">
+    <section className="grid grid-cols-2 justify-center items-center py-20 container mx-auto">
+      <div className="flex flex-col justify-center text-left mr-5">
         <div className="mb-3 text-lg italic">Pour les infopreneurs…</div>
         <h1 className="text-5xl font-bold mb-7 leading-tight">
           Comment Aimeriez-Vous Augmenter Drastiquement Vos Prospects, vos
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative h-full w-full flex justify-center items-center">
+      <div className="relative h-full w-full flex justify-center items-center ml-5">
         <Image
           src="/images/HeroImg.svg"
           className="HeroImg pointer-events-none"

@@ -5,8 +5,8 @@ const About = () => {
   return (
     <section className="py-16" id="about">
       <div className="container mx-auto">
-        <div className="grid grid-cols-5 gap-16">
-          <div className="col-span-3 text-justify">
+        <div className="grid grid-cols-5">
+          <div className="col-span-3 text-justify mr-8">
             <h2 className="mb-10 text-2xl font-semibold text-left">
               À Propos de Moi
             </h2>
@@ -61,7 +61,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="col-span-2 relative flex justify-center items-center">
+          <div className="col-span-2 relative flex justify-center items-center ml-8">
             <div>
               <Image
                 src="/images/ZoeeHead.jpeg"
