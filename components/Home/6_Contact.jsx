@@ -32,7 +32,7 @@ const Contact = () => {
               vous conviennent, vous pouvez alors m’engager.
             </li>
           </ol>
-          <div>
+          <div className="text-justify">
             Note : <u>Je n’accepte pas de travailler avec tout le monde</u>. Si
             je vois que je ne peux vraiment pas vous aider et vous rapporter de
             réels résultats, je ne vous vendrai pas mes services. C’est donc
