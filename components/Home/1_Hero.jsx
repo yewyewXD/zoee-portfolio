@@ -18,9 +18,9 @@ const Hero = () => {
           pendant que vous avez <u>l’esprit tranquille</u>!
         </h2>
 
-        <div className="lg:hidden mb-3">
+        <div className="lg:hidden my-3">
           <Image
-            src="/images/HeroImg.svg"
+            src="/images/HeroImgMobile.svg"
             className="pointer-events-none"
             alt=""
             height={350}
