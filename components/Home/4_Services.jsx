@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <section id="services" className="bg-white py-16">
+    <section id="services" className="bg-white sm:py-16 py-12">
       <h2 className="text-2xl font-semibold text-center">
         Services Premium que J’offre
       </h2>

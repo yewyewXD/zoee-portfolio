@@ -44,3 +44,9 @@ br {
     margin: 16px 0;
   }
 }
+
+.container {
+  @media (max-width: 767.98px) {
+    width: 92%;
+  }
+}

@@ -6,23 +6,23 @@ const Certificate = () => {
   return (
     <section
       id="certificate"
-      className="w-full flex justify-center items-center bg-white py-16"
+      className="w-full flex justify-center items-center bg-white sm:py-16 py-12"
     >
       <div className="container mx-auto">
-        <h2 className="mb-10 text-2xl font-semibold text-center">
+        <h2 className="md:mb-10 mb-4 text-2xl font-semibold text-center">
           Certifications Personnelles Vérifiées
         </h2>
-        <div className="flex justify-center items-center justify-items-center">
+        <div className="flex md:flex-nowrap flex-wrap justify-center items-center justify-items-center">
           {certificates.map((name, index) => {
             const isLast = index === certificates.length - 1;
             return (
               <div
-                className={`flex flex-col justify-center items-center ${
-                  !isLast ? "mr-16" : ""
-                }`}
+                className={`flex flex-col justify-center items-center md:m-0 ${
+                  !isLast ? "md:mr-16" : ""
+                } sm:m-8 m-5`}
                 key={`cert${index}`}
               >
-                <div className="flex justify-center items-center mb-5">
+                <div className="flex justify-center items-center sm:mb-5 mb-2">
                   <Image
                     src={`/images/Cert${name}Logo.png`}
                     width={151}

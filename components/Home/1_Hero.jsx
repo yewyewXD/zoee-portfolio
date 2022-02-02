@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="grid lg:grid-cols-2 justify-center items-center py-20 container mx-auto">
-      <div className="xl:text-left text-center flex flex-col justify-center mr-5">
+      <div className="xl:text-left text-center flex flex-col justify-center lg:mr-5">
         <div className="mb-3 2xl:text-lg text-base italic">
           Pour les infopreneurs…
         </div>
