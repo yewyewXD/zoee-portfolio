@@ -29,7 +29,7 @@ const Portfolio = () => {
                 />
               </div>
 
-              <div className="mt-3">{work.name}</div>
+              <div className="mt-3 font-medium">{work.name}</div>
             </a>
           );
         })}
