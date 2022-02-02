@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-white py-16">
       <div className="container mx-auto grid grid-cols-2">
-        <div className="relative flex items-center">
+        <div className="xl:ml-0 mr-5 relative flex items-center">
           <Image
             src="/images/ContactImg.svg"
             className="pointer-events-none"
@@ -14,7 +14,7 @@ const Contact = () => {
           />
         </div>
 
-        <div>
+        <div className="xl:ml-0 ml-5">
           <h3 className="text-2xl font-semibold mb-10">Comment ça Marche ?</h3>
           <ol className="mb-6">
             <li className="mb-3">

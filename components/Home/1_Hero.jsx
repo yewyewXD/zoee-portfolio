@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="mb-3 2xl:text-lg text-base italic">
           Pour les infopreneurs…
         </div>
-        <h1 className="2xl:text-5xl 2xl:leading-tight text-4xl leading-tight font-bold mb-7">
+        <h1 className="2xl:text-5xl 2xl:leading-tight xl:text-4xl text-3xl xl:mb-7 mb-5  leading-tight font-bold">
           Comment Aimeriez-Vous Augmenter Drastiquement Vos Prospects, vos
           Clients et vos Ventes Chaque Mois ?
         </h1>
-        <h2 className="mb-10 2xl:text-2xl text-xl font-medium leading-normal">
+        <h2 className="2xl:text-2xl xl:text-xl text-lg xl:mb-10 mb-8 font-medium leading-normal">
           Je vous aide à développer <i>rapidement</i> votre business en
           utilisant des techniques de marketing <b>testées et approuvées</b>{" "}
           pendant que vous avez <u>l’esprit tranquille</u>!

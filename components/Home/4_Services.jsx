@@ -17,7 +17,7 @@ const Services = () => {
           >
             <div
               className={`${
-                service?.reverse ? "order-last ml-8" : "mr-8"
+                service?.reverse ? "order-last xl:ml-8 ml-5" : "xl:mr-8 mr-5"
               } col-span-3`}
             >
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
@@ -51,7 +51,7 @@ const Services = () => {
 
             <div
               className={`col-span-2 relative ${
-                service?.reverse ? "mr-8" : "ml-8"
+                service?.reverse ? "xl:mr-8 mr-5" : "xl:ml-8 ml-5"
               }`}
             >
               <Image
