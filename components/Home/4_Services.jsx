@@ -12,13 +12,13 @@ const Services = () => {
       <div className="container mx-auto flex flex-col">
         {services.map((service, index) => (
           <div
-            className={`grid grid-cols-5 w-full mt-20 ${
-              service?.reverse ? "ml-8" : "mr-8"
-            }`}
+            className={`grid grid-cols-5 w-full mt-20`}
             key={`service${index}`}
           >
             <div
-              className={`${service?.reverse ? "order-last" : ""} col-span-3`}
+              className={`${
+                service?.reverse ? "order-last ml-8" : "mr-8"
+              } col-span-3`}
             >
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
               <Interweave
