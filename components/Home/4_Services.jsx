@@ -12,7 +12,9 @@ const Services = () => {
       <div className="container mx-auto flex flex-col">
         {services.map((service, index) => (
           <div
-            className="grid grid-cols-5 w-full mt-20 mr-8"
+            className={`grid grid-cols-5 w-full mt-20 ${
+              service?.reverse ? "ml-8" : "mr-8"
+            }`}
             key={`service${index}`}
           >
             <div
@@ -47,7 +49,11 @@ const Services = () => {
               ))}
             </div>
 
-            <div className="col-span-2 relative ml-8">
+            <div
+              className={`col-span-2 relative ${
+                service?.reverse ? "mr-8" : "ml-8"
+              }`}
+            >
               <Image
                 src={`/images/ServiceImg${index + 1}.svg`}
                 className="pointer-events-none"
