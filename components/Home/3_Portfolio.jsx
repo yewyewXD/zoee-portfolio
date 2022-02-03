@@ -10,7 +10,7 @@ const Portfolio = () => {
       </h2>
 
       <div className="container mx-auto">
-        <div className="lg:w-7/12 md:w-8/12 w-11/12 grid grid-cols-3 justify-center items-center gap-4 mx-auto">
+        <div className="2xl:w-7/12 xl:w-8/12 lg:w-10/12 w-full grid grid-cols-3 justify-center items-center gap-4 mx-auto">
           {portfolio.map((work, index) => {
             const isLast = index === portfolio.length - 1;
             return (
