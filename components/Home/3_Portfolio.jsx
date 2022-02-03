@@ -5,7 +5,9 @@ import portfolio from "../../json/portfolio.json";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="sm:py-16 py-12">
-      <h2 className="md:mb-12 text-3xl font-bold text-center">Portfolio</h2>
+      <h2 className="md:mb-12 md:text-3xl text-2xl font-bold text-center">
+        Portfolio
+      </h2>
 
       <div className="container mx-auto">
         <div className="2xl:w-7/12 xl:w-8/12 lg:w-10/12 w-full grid md:grid-cols-3 grid-cols-1 justify-center items-center md:gap-4 mx-auto">

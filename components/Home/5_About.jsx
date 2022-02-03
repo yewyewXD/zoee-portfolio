@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-5">
           <div className="lg:col-span-3 text-justify lg:mr-8">
-            <h2 className="lg:mb-10 lg:text-left text-center mb-5 text-2xl font-semibold">
+            <h2 className="lg:mb-10 lg:text-left md:text-3xl text-2xl text-center mb-5 font-bold">
               À Propos de Moi
             </h2>
 

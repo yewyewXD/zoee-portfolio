@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
 
         <div className="xl:ml-0 lg:ml-5">
-          <h3 className="lg:text-left lg:mb-10 mb-5 text-center text-2xl font-semibold">
+          <h3 className="lg:text-left lg:mb-10 md:text-3xl text-2xl mb-5 text-center font-bold">
             Comment ça Marche ?
           </h3>
           <div className="lg:hidden flex justify-center mb-5">
