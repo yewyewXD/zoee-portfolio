@@ -1,5 +1,10 @@
 [
   {
+    "source": "Landing",
+    "name": "Page de capture",
+    "featured": true
+  },
+  {
     "source": "EmailLong",
     "name": "E-mail long"
   },
@@ -17,10 +22,5 @@
   {
     "source": "Facebook",
     "name": "Facebook Ad"
-  },
-
-  {
-    "source": "Landing",
-    "name": "Page de capture"
   }
 ]

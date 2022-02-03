@@ -10,7 +10,7 @@ const Portfolio = () => {
       </h2>
 
       <div className="container mx-auto">
-        <div className="flex md:flex-nowrap flex-wrap justify-center items-center text-center">
+        <div className="lg:w-7/12 md:w-8/12 w-11/12 grid grid-cols-3 justify-center items-center gap-4 mx-auto">
           {portfolio.map((work, index) => {
             const isLast = index === portfolio.length - 1;
             return (
@@ -19,20 +19,23 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 href={`/files/Portfolio${work.source}.pdf`}
                 key={`portfolio${index}`}
-                className={`md:m-0 md:w-auto md:h-auto w-40 h-40 flex justify-center items-center flex-col transition duration-200 hover:opacity-80 ${
-                  !isLast ? "lg:mr-20 md:mr-12" : ""
-                } m-2`}
+                className={`${
+                  work.featured ? "col-span-2" : ""
+                } w-full h-72 bg-center bg-cover bg-no-repeat relative`}
+                style={{
+                  backgroundImage: `url(/images/Pre${work.source}.jpg)`,
+                }}
               >
-                <div>
+                <div className="top-0 absolute h-full w-full bg-blackPurple opacity-60 transition duration-300 hover:opacity-0"></div>
+                <div className="top-0 absolute h-full w-full flex justify-center items-center flex-col">
                   <Image
+                    // className="whiteFilter"
                     src={`/images/Portfolio${work.source}.png`}
                     alt=""
-                    height={100}
-                    width={100}
+                    height={120}
+                    width={120}
                   />
                 </div>
-
-                <div className="md:mt-3 mt-1 font-medium">{work.name}</div>
               </a>
             );
           })}
