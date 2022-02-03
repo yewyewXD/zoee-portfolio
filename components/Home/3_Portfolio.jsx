@@ -5,7 +5,7 @@ import portfolio from "../../json/portfolio.json";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="sm:py-16 py-12">
-      <h2 className="md:mb-12 mb-8 text-2xl font-semibold text-center">
+      <h2 className="md:mb-12 mb-8 text-3xl font-bold text-center">
         Portfolio
       </h2>
 
@@ -26,15 +26,20 @@ const Portfolio = () => {
                   backgroundImage: `url(/images/Pre${work.source}.jpg)`,
                 }}
               >
-                <div className="top-0 absolute h-full w-full bg-blackPurple opacity-60 transition duration-300 hover:opacity-0"></div>
-                <div className="top-0 absolute h-full w-full flex justify-center items-center flex-col">
-                  <Image
-                    // className="whiteFilter"
-                    src={`/images/Portfolio${work.source}.png`}
-                    alt=""
-                    height={120}
-                    width={120}
-                  />
+                <div className="transition duration-300 hover:opacity-0">
+                  <div className="top-0 absolute h-full w-full bg-blackPurple opacity-60"></div>
+                  <div className="top-0 absolute h-full w-full flex justify-center items-center flex-col">
+                    <Image
+                      src={`/images/Portfolio${work.source}.png`}
+                      alt=""
+                      height={120}
+                      width={120}
+                    />
+
+                    <h5 className="text-lightPurple mt-6 font-bold leading-none">
+                      {work.name}
+                    </h5>
+                  </div>
                 </div>
               </a>
             );

@@ -1,26 +1,26 @@
 [
   {
     "source": "Landing",
-    "name": "Page de capture",
+    "name": "PAGE DE CAPTURE",
     "featured": true
   },
   {
     "source": "EmailLong",
-    "name": "E-mail long"
+    "name": "E-MAIL LONG"
   },
 
   {
     "source": "Email",
-    "name": "E-mail court"
+    "name": "E-MAIL COURT"
   },
 
   {
     "source": "Sales",
-    "name": "Page de vente"
+    "name": "PAGE DE VENTE"
   },
 
   {
     "source": "Facebook",
-    "name": "Facebook Ad"
+    "name": "FACEBOOK AD"
   }
 ]

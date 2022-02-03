@@ -37,6 +37,11 @@ button {
     background-color: $color-blackPurple;
   }
 }
+.text- {
+  &lightPurple {
+    color: #ddd2f5;
+  }
+}
 
 br {
   display: block;
@@ -65,8 +70,4 @@ br {
     box-shadow: none;
     transform: translateY(8px);
   }
-}
-
-.whiteFilter {
-  filter: brightness(0) invert(1);
 }
