@@ -19,14 +19,18 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 href={`/files/Portfolio${work.source}.pdf`}
                 key={`portfolio${index}`}
-                className={`${
+                className={`PortfolioLink ${
                   work.featured ? "col-span-2" : ""
-                } w-full h-72 bg-center bg-cover bg-no-repeat relative`}
-                style={{
-                  backgroundImage: `url(/images/Pre${work.source}.jpg)`,
-                }}
+                } w-full h-72 relative overflow-hidden`}
               >
-                <div className="transition duration-300 hover:opacity-0">
+                <div
+                  className="PortfolioBg top-0 absolute h-full w-full bg-center bg-cover bg-no-repeat transform duration-1000"
+                  style={{
+                    backgroundImage: `url(/images/Pre${work.source}.jpg)`,
+                  }}
+                ></div>
+
+                <div className="top-0 absolute h-full w-full transition duration-300 hover:opacity-0">
                   <div className="top-0 absolute h-full w-full bg-blackPurple opacity-60"></div>
                   <div className="top-0 absolute h-full w-full flex justify-center items-center flex-col">
                     <Image

@@ -33,3 +33,7 @@ nav {
 .FinalCTA {
   border-top: solid 2px $color-darkPurple;
 }
+
+.PortfolioLink:hover .PortfolioBg {
+  transform: scale(1.1);
+}
