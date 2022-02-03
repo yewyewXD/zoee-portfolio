@@ -63,7 +63,7 @@ const About = () => {
 
             <p className="mb-5">
               Une toute dernière chose (après j’arrête de parler de moi),
-              l’honnête c’est une des valeurs les plus importantes à mon sens.
+              l’honnêté c’est une des valeurs les plus importantes à mon sens.
               Alors si je vois que je ne peux pas vous aider, je ne vous vendrai
               JAMAIS mes services (pas comme ces manipulateurs qui veulent juste
               se faire de l’argent). Je ne travaille qu’avec des personnes avec
