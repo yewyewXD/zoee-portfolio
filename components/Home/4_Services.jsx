@@ -1,7 +1,20 @@
 import React from "react";
 import services from "../../json/services.json";
-import Interweave from "interweave";
 import Image from "next/image";
+import sanitizeHtml from "sanitize-html";
+
+const SafeHTML = ({ content, className }) => {
+  const cleanHTML = sanitizeHtml(content, {
+    allowedTags: ["p", "br", "b", "i", "u"],
+  });
+
+  return (
+    <div
+      className={className}
+      dangerouslySetInnerHTML={{ __html: cleanHTML }}
+    />
+  );
+};
 
 const Services = () => {
   return (
@@ -35,7 +48,7 @@ const Services = () => {
               <h3 className="lg:text-left text-center text-xl sm:font-bold font-semibold mb-3 text-purple-700">
                 {service.title}
               </h3>
-              <Interweave
+              <SafeHTML
                 className="block text-justify"
                 content={service.description}
               />
