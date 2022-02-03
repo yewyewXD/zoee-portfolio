@@ -7,10 +7,19 @@ const Header = () => {
   const [isOpened, setIsOpened] = useState(false);
 
   return (
-    <header className="pt-7">
+    <header className="sm:pt-7 pt-2">
       <div className="container mx-auto">
         <div className="flex justify-between items-center w-full">
-          <div className="flex justify-start items-center">
+          <div className="sm:hidden items-center pt-3">
+            <Image
+              src="/images/Logo.svg"
+              className="pointer-events-none"
+              height={116 * 0.5}
+              width={143 * 0.5}
+              alt=""
+            />
+          </div>
+          <div className="sm:flex hidden justify-start items-center">
             <Image
               src="/images/Brand.svg"
               className="pointer-events-none"
