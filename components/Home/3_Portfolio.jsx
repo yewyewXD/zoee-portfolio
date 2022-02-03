@@ -27,7 +27,7 @@ const Portfolio = () => {
                   }}
                 ></div>
 
-                <div className="md:hover:opacity-0 top-0 absolute h-full w-full transition duration-300">
+                <div className="hover:opacity-0 top-0 absolute h-full w-full transition duration-300">
                   <div className="top-0 absolute h-full w-full bg-blackPurple opacity-60"></div>
                   <div className="top-0 absolute h-full w-full flex justify-center items-center flex-col">
                     <h5 className="md:hidden text-lightPurple mb-3 font-bold leading-none">
@@ -37,8 +37,8 @@ const Portfolio = () => {
                     <Image
                       src={`/images/Portfolio${work.source}.png`}
                       alt=""
-                      height={120}
-                      width={120}
+                      height={100}
+                      width={100}
                     />
 
                     <h5 className="md:block hidden text-lightPurple mt-6 font-bold leading-none">
