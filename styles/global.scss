@@ -50,3 +50,16 @@ br {
     width: 92%;
   }
 }
+
+.btn-primary {
+  box-shadow: 1px 1px 0 $color-blackPurple, 2px 2px 0 $color-blackPurple,
+    3px 3px 0 $color-blackPurple, 4px 4px 0 $color-blackPurple,
+    5px 5px 0 $color-blackPurple, 6px 6px 0 $color-blackPurple,
+    7px 7px 0 $color-blackPurple, 8px 8px 0 $color-blackPurple,
+    8px 8px 10px #222222;
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(8px);
+  }
+}

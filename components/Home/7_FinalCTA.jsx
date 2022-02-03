@@ -20,7 +20,7 @@ const FinalCTA = () => {
         </h4>
 
         <div className="text-center">
-          <button className="2xl:text-2xl text-xl bg-darkPurple py-6 px-12 font-semibold transition duration-200 hover:opacity-80">
+          <button className="2xl:text-2xl text-xl bg-darkPurple py-6 px-12 font-semibold transition duration-200 btn-primary">
             OUI ! Je veux ma consultation 100% GRATUITE !
             <div className="2xl:text-base text-sm font-normal mt-2">
               Cliquez ici pour planifier votre appel de consultation GRATUIT de
