@@ -32,7 +32,7 @@ const Services = () => {
                   : "xl:mr-8 lg:mr-5"
               } lg:col-span-3`}
             >
-              <h3 className="lg:text-left text-center text-xl font-semibold mb-3">
+              <h3 className="lg:text-left text-center text-xl sm:font-bold font-semibold mb-3 text-purple-700">
                 {service.title}
               </h3>
               <Interweave

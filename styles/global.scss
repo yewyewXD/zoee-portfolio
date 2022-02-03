@@ -25,7 +25,8 @@ h2,
 h3,
 h4,
 h5,
-button {
+button,
+.font-secondary {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -55,7 +56,14 @@ br {
 
 .container {
   @media (max-width: 767.98px) {
-    width: 92%;
+    width: 88%;
+    margin: 0 auto;
+  }
+}
+
+.container-sm {
+  @media (max-width: 639.98px) {
+    width: 88%;
     margin: 0 auto;
   }
 }

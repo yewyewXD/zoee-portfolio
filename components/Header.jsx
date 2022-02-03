@@ -14,8 +14,8 @@ const Header = () => {
             <Image
               src="/images/Logo.svg"
               className="pointer-events-none"
-              height={116 * 0.5}
-              width={143 * 0.5}
+              height={58}
+              width={71.5}
               alt=""
             />
           </div>
@@ -27,13 +27,12 @@ const Header = () => {
               width={282}
               alt=""
             />
-            {/* <Image src="/images/Logo.svg" height={58} width={71.5} alt="" /> */}
           </div>
 
           <nav className="lg:flex hidden justify-center items-center">
             {navItems.map((navItem, index) => (
               <div
-                className="flex flex-col justify-center items-center ml-8"
+                className="flex flex-col justify-center items-center ml-8 font-secondary font-semibold"
                 key={`nav${index}`}
               >
                 <Link href={navItem.link}>{navItem.name}</Link>
