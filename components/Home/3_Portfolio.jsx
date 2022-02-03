@@ -24,7 +24,7 @@ const Portfolio = () => {
                 } w-full h-72 relative overflow-hidden`}
               >
                 <div
-                  className="PortfolioBg top-0 absolute h-full w-full bg-center bg-cover bg-no-repeat transform duration-1000"
+                  className="PortfolioBg top-0 absolute h-full w-full bg-center bg-cover bg-no-repeat transition duration-1000"
                   style={{
                     backgroundImage: `url(/images/Pre${work.source}.jpg)`,
                   }}
