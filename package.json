@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@walletconnect/web3-provider": "^1.7.1",
-    "aos": "^2.3.4",
     "autoprefixer": "^10.4.2",
     "interweave": "^12.9.0",
     "moralis": "^0.0.184",
