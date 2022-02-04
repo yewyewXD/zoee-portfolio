@@ -4,10 +4,8 @@ import certificates from "../../json/certificates.json";
 
 const Certificate = () => {
   return (
-    <section
-      id="certificate"
-      className="w-full flex justify-center items-center bg-white sm:py-16 py-12"
-    >
+    <section className="relative w-full flex justify-center items-center bg-white sm:py-16 py-12">
+      <div id="certificate" className="absolute -top-20" />
       <div className="container mx-auto">
         <h2 className="md:mb-10 md:text-3xl sm:text-2xl text-xl mb-4 font-bold text-center">
           Certifications Personnelles Vérifiées

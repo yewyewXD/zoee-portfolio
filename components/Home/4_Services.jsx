@@ -18,7 +18,9 @@ const SafeHTML = ({ content, className }) => {
 
 const Services = () => {
   return (
-    <section id="services" className="bg-white sm:py-16 py-12">
+    <section className="bg-white sm:py-16 py-12 relative">
+      <div id="services" className="absolute -top-20" />
+
       <h2 className="md:text-3xl sm:text-2xl text-xl font-bold text-center">
         Services Premium que J’offre
       </h2>

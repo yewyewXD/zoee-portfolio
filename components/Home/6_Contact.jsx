@@ -3,7 +3,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-white sm:py-16 py-12">
+    <section className="bg-white sm:py-16 py-12 relative">
+      <div id="contact" className="absolute -top-20" />
       <div className="container mx-auto grid lg:grid-cols-2">
         <div className="xl:ml-0 lg:flex hidden mr-5 relative items-center">
           <Image

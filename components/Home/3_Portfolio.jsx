@@ -4,7 +4,9 @@ import portfolio from "../../json/portfolio.json";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="sm:py-16 py-12">
+    <section className="sm:py-16 py-12 relative">
+      <div id="portfolio" className="absolute -top-20" />
+
       <h2 className="md:mb-12 md:text-3xl sm:text-2xl text-xl font-bold text-center">
         Portfolio
       </h2>
