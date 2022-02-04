@@ -1,6 +1,9 @@
 import React from "react";
 
 const FinalCTA = () => {
+  function openCalendly() {
+    Calendly.initPopupWidget({ url: "https://calendly.com/zoee-copywriter" });
+  }
   return (
     <section className="FinalCTA sm:py-16 py-12 bg-white">
       <div className="lg:w-6/12 md:w-8/12 w-11/12 container-sm mx-auto">
@@ -20,7 +23,10 @@ const FinalCTA = () => {
         </h4>
 
         <div className="text-center">
-          <button className="bg-darkPurple md:py-6 md:px-12 sm:py-5 sm:px-10 py-4 px-8 transition duration-200 btn-primary">
+          <button
+            className="bg-darkPurple md:py-6 md:px-12 sm:py-5 sm:px-10 py-4 px-8 transition duration-200 btn-primary"
+            onClick={openCalendly}
+          >
             <span className="2xl:text-2xl sm:text-xl text-lg sm:leading-normal leading-tight font-semibold">
               OUI ! Je veux ma consultation 100% GRATUITE !
             </span>
