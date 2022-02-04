@@ -17,6 +17,11 @@ const Header = () => {
     };
   }, []);
 
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+    history.replaceState({}, null, "/");
+  }
+
   return (
     <>
       <header
@@ -29,19 +34,21 @@ const Header = () => {
             <div className="sm:hidden items-center pt-3">
               <Image
                 src="/images/Logo.svg"
-                className="pointer-events-none"
+                className="cursor-pointer"
                 height={58}
                 width={71.5}
                 alt=""
+                onClick={scrollToTop}
               />
             </div>
             <div className="sm:flex hidden justify-start items-center">
               <Image
                 src="/images/Brand.svg"
-                className="pointer-events-none"
+                className="cursor-pointer"
                 height={58}
                 width={282}
                 alt=""
+                onClick={scrollToTop}
               />
             </div>
 
