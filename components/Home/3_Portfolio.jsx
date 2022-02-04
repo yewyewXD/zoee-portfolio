@@ -16,6 +16,7 @@ const Portfolio = () => {
           {portfolio.map((work, index) => {
             return (
               <a
+                data-aos="fade-up"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={`/files/Portfolio${work.source}.pdf`}

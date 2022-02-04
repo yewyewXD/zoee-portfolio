@@ -27,6 +27,7 @@ const Services = () => {
       <div className="container mx-auto flex flex-col">
         {services.map((service, index) => (
           <div
+            data-aos={service?.reverse ? "fade-left" : "fade-right"}
             className={`grid lg:grid-cols-5 w-full lg:mt-20 mt-12`}
             key={`service${index}`}
           >

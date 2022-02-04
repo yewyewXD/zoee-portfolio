@@ -6,7 +6,10 @@ const Hero = () => {
     Calendly.initPopupWidget({ url: "https://calendly.com/zoee-copywriter" });
   }
   return (
-    <section className="grid lg:grid-cols-2 justify-center items-center md:py-20 py-7 container mx-auto">
+    <section
+      className="grid lg:grid-cols-2 justify-center items-center md:py-20 py-7 container mx-auto"
+      data-aos="fade-up"
+    >
       <div className="xl:text-left text-center flex flex-col justify-center lg:mr-5">
         <div className="mb-3 2xl:text-lg md:text-base text-sm italic">
           Pour les infopreneurs…

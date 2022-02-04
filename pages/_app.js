@@ -1,15 +1,14 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "../styles/global.scss";
-// import { MoralisProvider } from "react-moralis";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    // <MoralisProvider
-    //   appId={process.env.NEXT_PUBLIC_MORALIS_APP_ID}
-    //   serverUrl={process.env.NEXT_PUBLIC_MORALIS_SERVER_URL}
-    // >
-    <Component {...pageProps} />
-    // </MoralisProvider>
-  );
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

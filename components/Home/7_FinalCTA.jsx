@@ -5,7 +5,7 @@ const FinalCTA = () => {
     Calendly.initPopupWidget({ url: "https://calendly.com/zoee-copywriter" });
   }
   return (
-    <section className="FinalCTA sm:py-16 py-12 bg-white">
+    <section className="FinalCTA sm:py-16 py-12 bg-white" data-aos="zoom-in">
       <div className="lg:w-6/12 md:w-8/12 w-11/12 container-sm mx-auto">
         <h3 className="md:text-3xl sm:text-2xl text-xl font-bold text-center sm:mb-7 mb-5">
           Êtes-Vous Prêt à Voir Votre Nombre de Prospects, de Clients et vos
