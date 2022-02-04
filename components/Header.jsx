@@ -18,6 +18,7 @@ const Header = () => {
   }, []);
 
   function scrollToTop() {
+    setIsOpened(false);
     window.scrollTo(0, 0);
     history.replaceState({}, null, "/");
   }
@@ -101,7 +102,8 @@ const Header = () => {
                   <div className="items-center pr-3 sm:flex hidden">
                     <Image
                       src="/images/Brand.svg"
-                      className="pointer-events-none "
+                      className="cursor-pointer"
+                      onClick={scrollToTop}
                       height={58 * 0.8}
                       width={282 * 0.8}
                       alt=""
@@ -111,7 +113,8 @@ const Header = () => {
                   <div className="sm:hidden flex items-center">
                     <Image
                       src="/images/Logo.svg"
-                      className="pointer-events-none"
+                      className="cursor-pointer"
+                      onClick={scrollToTop}
                       height={58 * 0.8}
                       width={71.5 * 0.8}
                       alt=""
