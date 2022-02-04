@@ -1,3 +1,14 @@
+.HeaderPlaceholder {
+  height: 85.98px;
+  width: 100%;
+  padding-top: 28px;
+
+  @media (max-width: 639.98px) {
+    height: 83.74px;
+    padding-top: 8px;
+  }
+}
+
 nav {
   @media (min-width: 768px) {
     hr {
